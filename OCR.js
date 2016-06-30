@@ -1,5 +1,5 @@
-# remember that some function in this js is customied for my personal use
-# edit it for your own needs
+// remember that some function in this js is customied for my personal use
+// edit it for your own needs
 
 var debug = false;
 var textarea = document.createElement('textarea');
