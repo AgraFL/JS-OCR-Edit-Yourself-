@@ -302,6 +302,6 @@ net[11] = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
   //textarea.innerHTML = code.replace("r-", "r") + '\n';
   
   document.getElementById("answer").value = code;
-  document.getElementsByName("Submit")[0].click();
+  document.querySelectorAll("input[value=Submit]")[0].click();
 
 }
