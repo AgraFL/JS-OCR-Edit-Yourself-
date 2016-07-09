@@ -445,11 +445,11 @@ net[59] = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
   //textarea.innerHTML = code.replace("r-", "r") + '\n';
   
   document.getElementById("answer").value = reverse(code.replace("r-", "r"));
-  document.getElementsByName("Submit")[0].click();
+  document.querySelectorAll("input[value=Submit]")[0].click();
 
 }
 
-# add this code if you want to reverse the captcha automatically, delete it if you don't need it
+// add this code if you want to reverse the captcha automatically, delete it if you don't need it
 
 function reverse(s) {
   return s.split("").reverse().join("");
